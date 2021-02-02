@@ -2,6 +2,6 @@ const heightC = 10;
 
 const dC = 4;
 
-const v = 3.14 * (dC % 2) * (dC % 2) * heightC + "м";
+const v = 3.14 * (dC % 2) * (dC % 2) * heightC;
 
-console.log(v);
+console.log(v + "м");

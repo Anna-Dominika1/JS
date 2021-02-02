@@ -14,6 +14,6 @@ let a9 = "5" - 3;
 console.log(a9);
 alert(a9);
 
-let a10 = 75 + "кг";
+let a10 = 75;
 console.log(a10);
-alert(a10);
+alert(a10 + "кг");

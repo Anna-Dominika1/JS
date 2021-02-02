@@ -1,11 +1,3 @@
-const myAge = "10";
+const Age = 10 + 11;
 
-console.log(myAge);
-
-alert(myAge);
-
-const friendAge = "11";
-
-console.log("My friend is", friendAge);
-
-alert(friendAge);
+alert(Age);
