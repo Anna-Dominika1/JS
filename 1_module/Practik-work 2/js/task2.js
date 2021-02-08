@@ -1,3 +1,4 @@
-const Age = 10 + 11;
 
-alert(Age);
+const myAge = 12;
+const friendAge = 15;
+alert(myAge + friendAge);
