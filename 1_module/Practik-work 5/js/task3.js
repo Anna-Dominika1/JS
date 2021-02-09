@@ -1,7 +1,7 @@
 
-let counter = 20;
+let d = 20;
 
-while (counter < 28) {
-  console.log(counter);
-  counter += 1;
+while (d < 28) {
+  console.log(d);
+  d += 1;
 }
