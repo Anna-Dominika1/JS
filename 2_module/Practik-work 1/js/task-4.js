@@ -1,5 +1,10 @@
 const  message = 'Welcome to Ukraine!';
 
-for (const character of message) {
-  console.log(character);
-}
+
+console.log(message.split(''));
+
+
+console.log(message.indexOf('l')); 
+
+
+console.log(message.join(' '));
