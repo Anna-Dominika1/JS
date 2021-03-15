@@ -1,7 +1,9 @@
-const random = Math.random() * (5 - 1) + 1;
+// const random = Math.random() * (5 - 1);
 
-if (random);
-else if (random <= 5) {
-    random = 1<5;
-  }
-  console.log(random);
+// if (random);
+
+
+// else if (random <= 5) {
+//     random = 1<5;
+//   }
+//   console.log(Math.round(random));

@@ -1,24 +1,26 @@
-let montch;
-const montchs = prompt("Введіть мову з поданих прикладів:ua,en,ru,fr і тоді Ви дізнаєтесь як буде по цих мовах Січень");
 
-if (montchs === 'Введіть місяць') {
-  montch = 'montch';
+// let montch;
+// const montchs = 'ua';
 
-}
-else if (montchs === 'ua') {
-    montch = 'Січень';
-  }
-   else if (montchs === 'en') {
-  montch = 'Januar';
-} else if (montchs === 'ru') {
-  montch = 'Январь';
-}
+// switch (montchs) {
+//   case 'ua':
+//     montch = 'Січень';
+//     break;
 
-else if (montchs === 'fr') {
-    montch = 'Janvier';
-  }
-   else {
-  console.log('Виникла помилка');
-}
+//   case 'en':
+//     montch = 'Januar';
+//     break;
 
-console.log(montch);
+//   case 'ru':
+//     montch = 'Январь';
+//     break;
+
+//     case 'fr':
+//       montch = 'Janvier';
+//       break;
+
+//   default:
+//     console.log('Ви не ввели мову або такої категорії не має!');
+// }
+
+// console.log(montch)
