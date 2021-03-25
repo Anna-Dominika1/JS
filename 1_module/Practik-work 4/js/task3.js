@@ -2,15 +2,9 @@
 
 // let syrname = prompt("Введіть прізвище яке буде містити більше 5 символів");
 
-
-
-// if (name.length > 4);
-
-// else if  (syrname.length > 5);
- 
-// else if  (name.length + syrname.length){
+// if(name.length >= 4 + syrname.length >= 5){
 //     console.log (name.length + syrname.length)
-//  }              
-//  else {
+//     } else {
 //     console.log(`УПС`);
-//  }
+//     }
+    
