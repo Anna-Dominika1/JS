@@ -1,45 +1,34 @@
+// let prices;
+// const country = 'Китай';
 
+// switch (country) {
+//   case 'Китай':
+//     prices = 100;
+//     console.log('Доставка в Китай буде коштувати 100 кредитів.')
+//     break;
 
-let counter  =  prompt("Введіть країну,в яку хочете доставити товар");
+//   case 'Чилі':
+//     prices = 250;
+//     console.log('Доставка в Чилі буде коштувати 250 кредитів.')
+//     break;
 
-let price ;
+//   case 'Австралія':
+//     prices = 170;
+//     console.log('Доставка в Астралію буде коштувати 170 кредитів.')
+//     break;
+   
+//     case 'Індія':
+//       prices = 80;
+//       console.log('Доставка в Індію буде коштувати 80 кредитів.')
+//       break;
 
-if (counter === 'Країну не обрано') {
-  price = 0;
-  console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-} 
+//       case 'Ямайка':
+//       prices = 120;
+//       console.log('Доставка в Ямайку буде коштувати 120 кредитів.')
+//       break;
 
-else if (counter === 'Китай') {
-  price = 100;
+//   default:
+//     console.log('У вашій країні доставка недоступна');
+// }
 
-  console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-}
-
-else if (counter === 'Чилі') {
-  price = 250;
-
-  console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-} 
-
-else if (counter === 'Австралія') {
-    price = 170;
-    console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-  }
-
-  else if (counter === 'Індія') {
-    price = 80;
-    console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-  }
-
-  else if (counter === 'Ямайка') {
-    price = 120;
-    console.log(`Доставка в ${counter} буде коштувати ${price} кредитів.`) 
-  }
- 
-
-else {
-  alert("У вашій країні доставка недоступна"); 
-  console.log("У вашій країні доставка недоступна");
-}
-
-
+// console.log(prices); 
