@@ -1,9 +1,17 @@
+
+  
 // const salaries = {
 //     John: 100,
 //     Ann: 160,
-//     Pete: 130
-//     }
+//     Pette: 130,
+//   };
 
-// const sum = salaries.Ann + salaries.John + salaries.Pete;
+// const values = Object.values(salaries); // [100, 160, 130]
 
-// console.log(sum)
+// let sum = 0;
+
+// for (const value of values) {
+//   sum += value;
+// }
+
+// console.log(sum); // 390

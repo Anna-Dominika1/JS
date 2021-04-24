@@ -1,21 +1,25 @@
 // const user = {
-//     userName: 'Анна-Домініка',
-//     age: 10,
-    
+ 
 //   };
   
+
+
+//   user.username = "Anna-Dominika";
+//   user.age = 10;
+
 //   user.showUserName = function () {
-//     console.log(user.userName);
+//    return this.username;
 //   };
   
-//   user.showUserName(); 
-
-
+//   console.log(user.showUserName()); 
 
 
 
 //   user.updateAge = function () {
-//     console.log(user.age + 1);
+//    return this.age += 1 
 //   };
   
-//   user.updateAge();
+  
+//  console.log(user.updateAge());
+//  console.log(user.updateAge());
+//  console.log(user.updateAge());
