@@ -1,14 +1,10 @@
-// const emails = [
-//      { name: 'Moore Hensley', email: "moorehensley@indexia.com" },
-//     { name: 'Sharlene Bush', email: "sharlenebush@tubesys.com" },
-//     { name: 'Ross Vazquez', email: "rossvazquez@xinware.com" },
-//     { name: 'Blackburn Dotson', email: "blackburndotson@furnigeer.com" },
-//     { name: 'Elma Head', email: "elmahead@omatom.com" },
-//     { name: 'Carey Berr', email: "careybarr@nurali.com" },
-//     { name: 'Sheree Anthony', email: "shereeanthony@kog.com" },
-//   ];
+// import users from './users.js';
 
-// const emails1 = emails.find(useremail => useremail.email==="shereeanthony@kog.com")
 
-// console.log(emails1.name);
+// const getUserWithEmail = (users, email) => {
+//   const result = users.find(user => user.email===email);
+//   return result;
+// };
 
+// console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
+// console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}

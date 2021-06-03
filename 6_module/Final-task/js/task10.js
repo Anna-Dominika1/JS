@@ -1,6 +1,13 @@
-// const userHobby = ['adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ];
-
-// ;
+import users from './users.js';
 
 
-// console.log(userHobby.sort())
+
+
+const getSortedUniqueSkills = users => {
+    const resultes = users.reduce((acc, value) => [...acc, ...value.skills], [])
+    .reduce((acc, value) => (acc = acc.includes(value) ? acc : [...acc, value]), [])
+    .sort();
+    return resultes
+  };
+  
+  console.log(getSortedUniqueSkills(users));

@@ -1,14 +1,10 @@
-// const howMamyFriends = [
-//     { name: 'Moore Hensley', friend1:'Sharron Pace'},
-//     { name: 'Sharlene Bush', friend1:'Briana Decker','Sharron Pace'},
-//     { name: 'Ross Vazquez', friend1:'Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'},
-//     { name: 'Elma Head', friend1:'Goldie Gentry', 'Aisha Tran'},
-//     { name: 'Carey Berr', friend1:'Jordan Sampson', 'Eddie Strong'},
-//     { name: 'Blackburn Dotson', friend1:' Lucas', 'Linda Chapman'},
-//     { name: 'Sheree Anthony', friend1:'Goldie Gentry', 'Briana Decker'},
-//   ];
+// import users from './users.js';
   
 
-//  const friends = howMamyFriends.sort(friends => friends.friend1);
-  
-// console.log(friends)
+// const getNamesSortedByFriendsCount = users => {
+//     const result = users
+//       .sort((a, b) => a.friends.length - b.friends.length)
+//       .map(user => user.name)
+//     return result;
+//   };
+//   console.log(getNamesSortedByFriendsCount(users));

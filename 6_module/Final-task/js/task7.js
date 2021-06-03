@@ -1,16 +1,12 @@
-//  const users4 = [
-//     { name: 'Moore Hensley',balance: 2811},
-//     { name: 'Sharlene Bush',balance:3821},
-//     { name: 'Ross Vazquez',balance:3793},
-//     { name: 'Elma Head',balance:2278},
-//     { name: 'Carey Barr',balance: 3951},
-//     { name: 'Blackburn Dotson',balance:1498},
-//     { name: 'Sheree Anthony',balance:2764},
-//   ];
-  
+// import users from './users.js';
 
-//   const balance1 = users4.reduce(user78 => user78 =  2811+ 3821+ 3793 + 2278 +3951+ 1498+ 2764);
+// const calculateTotalBalance = users => {
+//    const sum = users.map(user => user.balance).reduce((acc, value) => acc + value, 0)
+//    return sum
+ 
+      
+//   };
   
-//   console.log(balance1); 
-
+//   console.log(calculateTotalBalance(users)); // 20916
+  
 

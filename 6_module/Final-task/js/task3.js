@@ -1,16 +1,10 @@
-// const people = [
-//     { name: 'Moore Hensley', gender: "male" },
-//     { name: 'Sharlene Bush', gender: "female" },
-//     { name: 'Ross Vazquez', gender: "male" },
-//     { name: 'Blackburn Dotson', gender: "male" },
-//     { name: 'Elma Head', gender: "female" },
-//     { name: 'Carey Berr', gender: "male" },
-//     { name: 'Sheree Anthony', gender: "female" },
-//   ];
+
+// import users from './users.js';
+
+// const getUsersWithGender = (users, gender) => {
+//     const result = users.filter(user => user.gender === gender).map(user =>user.name);
+//     return result;
+//   };
   
-
-
-//   const girl = people.filter(girls => girls.gender==="female")
-//   const boy = people.filter(boys => boys.gender==="male")
-//   console.log(girl);
-//   console.log(boy);
+  
+//   console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
