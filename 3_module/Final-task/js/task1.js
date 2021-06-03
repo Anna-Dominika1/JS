@@ -1,28 +1,28 @@
-const user = {
-  name: 'Mango',
-  age: 20,
-  hobby: 'html',
-  premium: true,
-};
+// const user = {
+//   name: 'Mango',
+//   age: 20,
+//   hobby: 'html',
+//   premium: true,
+// };
 
-// додає поле mood зі значенням 'happy'
-user.mood = "happy";
-console.log(user);
+// // додає поле mood зі значенням 'happy'
 
-// замінює значення hobby на 'skydiving'
+// user.mood = "happy";
+// console.log(user);
 
-user.hobby = 'skydiving';
+// // замінює значення hobby на 'skydiving'
+
+// user.hobby = 'skydiving';
 
 
-// замінює значення premium на false
+// // замінює значення premium на false
 
-user.premium = false;
+// user.premium = false;
 
-// виводить вміст об'єкта user в форматі ключ:значення використовуючи Object.keys() і for...of
+// // виводить вміст об'єкта user в форматі ключ:значення використовуючи Object.keys() і for...of
 
-const keys = Object.keys(user) 
+// const keys = Object.keys(user);
 
-for (const useres of user) {
-   
-
-}
+// for (const key of keys) {
+//   console.log('Value: ', user[key]);
+// }
