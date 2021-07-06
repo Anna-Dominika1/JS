@@ -1,12 +1,5 @@
 class Car {
-    /*
-     * Додай статичний метод `getSpecs(car)`,
-     * який приймає об'єкт-машину як параметр і виводить
-     * в консоль значення властивостей maxSpeed, speed, isOn, distance и price.
-     */
-    getSpecs(car) {
-        console.log(car);
-    }
+
     /*
      * Конструктор отримує об'єкт налаштувань.
      *
@@ -17,13 +10,22 @@ class Car {
      *  isOn - заведений автомобіль, значення true або false. Спочатку false
      *  distance - загальний кілометраж, спочатку 0
      */
-    constructor() {
+    constructor(a) {
         this.speed = 0
-        this.price = this.price
-        this.maxSpeed = this.maxSpeed
+        this.price = a.price
+        this.maxSpeed = a.maxSpeed
         this.isOn = false
         this.distance = 0
 
+    }
+
+    /*
+ * Додай статичний метод `getSpecs(car)`,
+ * який приймає об'єкт-машину як параметр і виводить
+ * в консоль значення властивостей maxSpeed, speed, isOn, distance и price.
+ */
+    static getSpecs(car) {
+        console.log(car);
     }
 
     /*
