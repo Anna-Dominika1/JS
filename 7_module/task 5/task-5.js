@@ -1,11 +1,20 @@
-const string = "Привіт";
-console.log(typeof string);
+const refs = {
+    span: document.querySelector("#name-output"),
+    input: document.querySelector('#name-input'),
+}
 
-const number = 123;
-console.log(typeof number);
 
-const isModalOpen = true;
-console.log(typeof isModalOpen);
+const textContent = (e) => {
 
-const str = "true";
-console.log(typeof str);
+    refs.span.textContent = e.target.value
+
+    if (refs.span.textContent.length === 0) {
+        refs.span.textContent = 'незнайомцю'
+    }
+}
+
+
+
+
+
+refs.input.addEventListener('input', textContent)

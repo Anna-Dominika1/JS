@@ -1,11 +1,11 @@
-const string = "Привіт";
-console.log(typeof string);
+const refs = {
+    range: document.querySelector('#font-size-control'),
+    text: document.querySelector('#text'),
+}
 
-const number = 123;
-console.log(typeof number);
+const fontSizeRange = (event) => {
+    refs.text.style.fontSize = event.currentTarget.value + 'px'
 
-const isModalOpen = true;
-console.log(typeof isModalOpen);
+}
 
-const str = "true";
-console.log(typeof str);
+refs.range.addEventListener('input', fontSizeRange)

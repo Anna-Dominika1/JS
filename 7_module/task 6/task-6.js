@@ -1,11 +1,23 @@
-const string = "Привіт";
-console.log(typeof string);
+const refs = {
+    input: document.querySelector('#validation-input'),
+}
 
-const number = 123;
-console.log(typeof number);
 
-const isModalOpen = true;
-console.log(typeof isModalOpen);
+const NumberOfCharacters = (a) => {
 
-const str = "true";
-console.log(typeof str);
+
+    if (a.target.value.length === Number.parseInt(refs.input.getAttribute('data-length'))) {
+        console.log(`Ви ввеле правильну кількість,${a.target.value.length}`);
+        refs.input.classList.remove('invalid')
+        refs.input.classList.add('valid')
+
+    } else if (a.target.value.length !== Number.parseInt(refs.input.getAttribute('data-length'))) {
+        refs.input.classList.add('invalid')
+        console.log(`Ви ввеле неправильну кількість символів,${a.target.value.length}`);
+    }
+
+}
+
+
+
+refs.input.addEventListener('blur', NumberOfCharacters)

@@ -1,20 +1,20 @@
 const ingredients = [
-    'Картопля',
-    'Гриби',
-    'Часник',
-    'Помідори',
-    'Зелень',
-    'Приправи',
-  ];
+    "Картопля",
+    "Гриби",
+    "Часник",
+    "Помідори",
+    "Зелень",
+    "Приправи",
+];
+const ingredientsRef = document.querySelector("#ingredients");
 
-  const heading = document.createElement('li');
+const a = ingredients.forEach((ingredient) => {
+    const ing = document.createElement("li")
+    ing.classList.add('ingredient')
+    ing.textContent = ingredient
+    ingredientsRef.appendChild(ing)
+});
 
 
-  heading.textContent = ingredients;
-  console.log(heading);
 
-// const image = document.createElement('img');
-// image.setAttribute('src', 'https://placeimg.com/640/480/nature');
-// image.setAttribute('alt', 'nature');
 
-// console.log(image); // <img src="https://placeimg.com/640/480/nature" alt="nature">
